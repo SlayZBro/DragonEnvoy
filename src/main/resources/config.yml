@@ -1,0 +1,8 @@
+world: "world_the_end"
+envoy-spawn-delay: 3600
+crate-fall: 5
+radius:
+  min: 0
+  max: 250
+dragon-name: "Dragon Name"
+dragon-health: 100.0

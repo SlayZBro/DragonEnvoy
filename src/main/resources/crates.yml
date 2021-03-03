@@ -1,0 +1,35 @@
+crates:
+  Example:
+    contents: 4
+    color: "White"
+    ender:
+      items:
+        key1:
+          type: command
+          command: "givekey {player} key"
+          chance: 100
+    items:
+      item1:
+        type: item
+        id: "DIAMOND_SWORD"
+        name: "&dExample Sword"
+        lore:
+          - ' '
+          - ' &7&oThis sword is an item from an Envoy!'
+        chance: 20
+      item2:
+        type: item
+        id: "DIAMOND_PICKAXE"
+        name: "&dExample Pickaxe"
+        lore:
+          - ' '
+          - ' &7&oThis pickaxe is an item from an Envoy!'
+        enchants:
+          - 'efficiency:5'
+          - 'unbreaking:3'
+          - 'fortune:3'
+        chance: 50
+      item3:
+        type: command
+        command: "give {player} diamond 1"
+        chance: 30

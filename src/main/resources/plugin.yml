@@ -1,0 +1,9 @@
+name: Envoy
+author: SlayZBro
+version: ${project.version}
+main: com.tapgb.envoy.Envoy
+description: Envoy Plugin
+softdepends: [PlaceholderAPI]
+commands:
+  envoy:
+    description: Main Envoy Command

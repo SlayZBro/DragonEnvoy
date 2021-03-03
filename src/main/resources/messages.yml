@@ -1,0 +1,24 @@
+prefix: "&8(&bEnvoy&8) &b"
+error-players-only: "{prefix}&4ERROR: &cOnly players can perform this command!"
+error-no-permission: "{prefix}&4ERROR: &cYou need the permission {node} to perform this command!"
+error-no-op: "{prefix}&4ERROR: &cYou need to be opped to do this!"
+incorrect-usage: "{prefix}&4ERROR: &cCorrect usage: {usage}"
+next-envoy: "{prefix}The next envoy will spawn in {next_envoy}!"
+envoy-started: "{prefix}You have started an envoy! Location: {location} Type: {type}"
+envoy-claimed:
+  user: "{prefix}You have claimed the envoy!"
+  broadcast: "{prefix}{player} has claimed the envoy!"
+spawn-delay:
+  set: "{prefix}Set the spawn delay to {delay}!"
+  not-a-number: "{prefix}&4ERROR: &c{args} is not a number!"
+radius:
+  set: "{prefix}Spawn radius set to Min: {min}, Max: {max}"
+  numbers-required: "{prefix}Arguments must both be numbers!"
+world:
+  set: "{prefix}World set to: {world}!"
+  world-does-not-exist: "{prefix}The world {arg} does not exist!"
+help-message:
+  - '{prefix}List of commands:'
+  - '&b> &7{commands}'
+envoy-start: "&b*** {prefix} ***\nThe dragon has awaken and can be found dropping crates over the End dimension"
+envoy-start-10min: "&b*** {prefix} ***\nThe dragon will spawn in 15 min"
